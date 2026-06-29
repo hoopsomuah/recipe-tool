@@ -8,13 +8,13 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "pydantic>=2.7.2,<3.0.0",
-    "mcp>=1.6.0",
+    "mcp>=1.23.0",
     "ruff>=0.1.0",
     "tomli>=2.2.1",
 ]
 
 [dependency-groups]
-dev = ["pytest>=7.0.0", "black>=23.0.0", "mypy>=1.0.0"]
+dev = ["pytest>=7.0.0", "black>=26.3.1", "mypy>=1.0.0"]
 
 [project.scripts]
 # Main entry point
